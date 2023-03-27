@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pizzeria">
+  <meta name="keywords" content="pizza, Argentina, pizzeria, gastronomia, productos">
+  <meta name="author" content="ramroman163@gmail.com">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500&display=swap" rel="stylesheet">
+  <title>Pizzeria</title>
+</head>
+
+<body>
+  <header class="w-100 fixed-top shadow ">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid ms-lg-5 ms-sm-3">
+        <a class="navbar-brand ms-lg-5 ms-sm-3 link-light" href="#">Pizzeria</a>
+        <button class="navbar-toggler me-sm-3" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <!-- <span class="navbar-toggler-icon navbar__boton--icono"></span> -->
+          <i class='bx bx-menu navbar__boton--icono' style='color:#ffffff'></i>
+        </button>
+        <div class="me-lg-5 offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">Pizzeria</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="me-lg-5 contenedor__navbar offcanvas-body">
+            <ul class="contenedor__navbar--ul navbar-nav justify-content-end flex-grow-1 pe-2 pe-lg-3">
+              <li class="nav-item">
+                <a class="nav-link link-light active" aria-current="page" href="#inicio">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="#nosotros">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="#productos">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="#promos">Promos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="#ubicacion">Sucursal</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container-fluid p-0 d-flex flex-column gap-2">
+    <section id="inicio" class="seccion__inicio w-100 container-fluid">
+      <div class="fondo_transparente">
+      </div>
+      <div class="contenido__section section__inicio--contenido">
+        <div class="section__inicio--informacion">
+          <h2 class="text-center mb-0">Pizzeria</h2>
+          <div class="section__inicio--barrah"></div>
+          <div class="section__inicio--contacto">
+            <h3><i class='bx bxl-whatsapp' style='color:#ffffff'></i>11-0000-0000</h3>
+            <h3><i class='bx bx-phone' style='color:#ffffff'></i>4444-8888</h3>
+          </div>
+        </div>
+      </div>
+      <div id="nosotros"></div>
+    </section>
+
+    <section class="section__nosotros w-100 container-fluid p-2 pt-3">
+      <div class="fondo_transparente">
+      </div>
+      <div class="section__nosotros--izquierda">
+      </div>
+      <div class="contenido__section section__nosotros--contenido">
+        <div class="section__nosotros--descripcion p-5">
+          <h2 class="text-black text-md-center">Nosotros</h2>
+          <p class="pt-2 text-center">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores ipsam nostrum est quasi provident eum
+            dolor iusto. Adipisci voluptas quos delectus repellendus officiis temporibus, fugit aliquid voluptates omnis
+            soluta dicta?
+            Molestias quasi voluptas unde ipsum possimus? Iure sed amet adipisci qui incidunt dignissimos error
+            consectetur accusamus et odit deserunt.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="productos" class="container-fluid w-100 section__productos">
+      <div class="fondo_transparente">
+      </div>
+      <h2 class="text-center section__productos--titulo">Nuestros productos</h2>
+      <div class="contenido__section section__productos--contenido">
+        <div class="productos--columna">
+          <div class="producto">
+            <img class="shadow" src="../img/pizza-promo.jpg" alt="">
+            <div class="cortina">
+              <div class="producto--informacion">
+                <div class="producto--texto">
+                  <h4 class="producto--titulo">Pizza Napolitana</h4>
+                  <p class="producto--descripcion">Con jamón y tomate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="producto">
+            <img class="shadow" src="../img/pizza-promo.jpg" alt="">
+            <div class="cortina">
+              <div class="producto--informacion">
+                <div class="producto--texto">
+                  <h4 class="producto--titulo">Pizza Napolitana</h4>
+                  <p class="producto--descripcion">Con jamón y tomate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="producto">
+            <img class="shadow" src="../img/pizza-promo.jpg" alt="">
+            <div class="cortina">
+              <div class="producto--informacion">
+                <div class="producto--texto">
+                  <h4 class="producto--titulo">Pizza Napolitana</h4>
+                  <p class="producto--descripcion">Con jamón y tomate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="productos--columna">
+          <div class="producto">
+            <img class="shadow" src="../img/pizza-promo.jpg" alt="">
+            <div class="cortina">
+              <div class="producto--informacion">
+                <div class="producto--texto">
+                  <h4 class="producto--titulo">Pizza Napolitana</h4>
+                  <p class="producto--descripcion">Con jamón y tomate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="producto">
+            <img class="shadow" src="../img/pizza-promo.jpg" alt="">
+            <div class="cortina">
+              <div class="producto--informacion">
+                <div class="producto--texto">
+                  <h4 class="producto--titulo">Pizza Napolitana</h4>
+                  <p class="producto--descripcion">Con jamón y tomate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="producto">
+            <img class="shadow" src="../img/pizza-promo.jpg" alt="">
+            <div class="cortina">
+              <div class="producto--informacion">
+                <div class="producto--texto">
+                  <h4 class="producto--titulo">Pizza Napolitana</h4>
+                  <p class="producto--descripcion">Con jamón y tomate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="productos--columna">
+          <div class="producto">
+            <img class="shadow" src="../img/pizza-promo.jpg" alt="">
+            <div class="cortina">
+              <div class="producto--informacion">
+                <div class="producto--texto">
+                  <h4 class="producto--titulo">Pizza Napolitana</h4>
+                  <p class="producto--descripcion">Con jamón y tomate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="producto">
+            <img class="shadow" src="../img/pizza-promo.jpg" alt="">
+            <div class="cortina">
+              <div class="producto--informacion">
+                <div class="producto--texto">
+                  <h4 class="producto--titulo">Pizza Napolitana</h4>
+                  <p class="producto--descripcion">Con jamón y tomate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="producto">
+            <img class="shadow" src="../img/pizza-promo.jpg" alt="">
+            <div class="cortina">
+              <div class="producto--informacion">
+                <div class="producto--texto">
+                  <h4 class="producto--titulo">Pizza Napolitana</h4>
+                  <p class="producto--descripcion">Con jamón y tomate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="productos--columna">
+          <div class="producto">
+            <img class="shadow" src="../img/pizza-promo.jpg" alt="">
+            <div class="cortina">
+              <div class="producto--informacion">
+                <div class="producto--texto">
+                  <h4 class="producto--titulo">Pizza Napolitana</h4>
+                  <p class="producto--descripcion">Con jamón y tomate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="producto">
+            <img class="shadow" src="../img/pizza-promo.jpg" alt="">
+            <div class="cortina">
+              <div class="producto--informacion">
+                <div class="producto--texto">
+                  <h4 class="producto--titulo">Pizza Napolitana</h4>
+                  <p class="producto--descripcion">Con jamón y tomate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="producto">
+            <img class="shadow" src="../img/pizza-promo.jpg" alt="">
+            <div class="cortina">
+              <div class="producto--informacion">
+                <div class="producto--texto">
+                  <h4 class="producto--titulo">Pizza Napolitana</h4>
+                  <p class="producto--descripcion">Con jamón y tomate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="text-center section__productos--titulo2">Y mucho más</h2>
+    </section>
+
+    <section id="promos" class="seccion__promos w-100 container-fluid">
+      <div class="fondo_transparente">
+      </div>
+      <div class="contenido__section section__promos--contenido pt-5 pt-xl-3">
+        <h2 class="fs-1 mb-3 mt-5 mt-xl-4 mb-xl-4 text-center">Nuestras promos</h2>
+
+        <div class="row g-5 justify-content-center w-100 mb-4">
+          <div class="col col-12 col-sm-12 col-xl-4">
+            <div class="card">
+              <img src="./img/pizza-promo.jpg" class="card-img-top" alt="img_promo1">
+              <div class="card-body">
+                <h5 class="card-title text-center fs-4">Promo 1</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, possimus!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col col-12 col-sm-12 col-xl-4">
+            <div class="card">
+              <img src="./img/pizza-promo.jpg" class="card-img-top" alt="img_promo2">
+              <div class="card-body">
+                <h5 class="card-title text-center fs-4">Promo 2</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, dolores.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col col-12 col-xl-4">
+            <div class="card">
+              <img src="./img/pizza-promo.jpg" class="card-img-top" alt="img_promo3">
+              <div class="card-body">
+                <h5 class="card-title text-center fs-4">Promo 3</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, dolores.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ubicacion" class="section__ubicacion w-100 container-fluid">
+      <div class="fondo_transparente">
+      </div>
+      <div class="contenido__section section__ubicacion--contenido">
+        <div class="section__ubicacion--izquierda">
+          <iframe class="section__ubicacion--mapa shadow"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d85848.12198099185!2d-58.46991949752552!3d-34.608346511764665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1671315972775!5m2!1ses-419!2sar"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="section__ubicacion--derecha">
+          <h2><i class='bx bx-map' style='color:#ffffff'></i>Ubicación</h2>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item section__ubicacion--item">Avenida Siempreviva 3000, Springfield</li>
+          </ul>
+          <section class="section__horario">
+            <h2><i class='bx bx-time-five' style='color:#ffffff'></i>Horario de atención</h2>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item section__ubicacion--item">Lunes a Viernes: <span>10:00 a 23:00</span></li>
+              <li class="list-group-item section__ubicacion--item">Sabado y Domingo: <span>17:00 a 23:00</span></li>
+              <li class="list-group-item section__ubicacion--item">Feriados: <span>17:00 a 23:00</span></li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="w-100 container-fluid shadow row m-0">
+    <div class="col-12 col-md-4 footer__fuentes container-fluid">
+      <h5 class="text-white text-md-center">Fuentes</h5>
+      <a class="footer__fuentes--link"
+        href="https://www.freepik.es/foto-gratis/actos-vandalismo-pared-concreto_1036945.htm#query=anuncios%20pared&position=16&from_view=search&track=sph">Imagen
+        de kues1 en Freepik</a>
+      <a class="footer__fuentes--link" href="https://www.recetasnestle.com.ec/recetas/pizza-casera">Foto de pizza</a>
+      <a class="footer__fuentes--link" href="https://boxicons.com/">Iconos de Boxicons</a>
+      <a class="footer__fuentes--link"
+        href="https://www.lavanguardia.com/comer/20210330/6617406/pizza-recetas-trucos-consejos-comida-mas-difundida-mundo-esi.html">Foto
+        de pizza</a>
+      <a class="footer__fuentes--link"
+        href="https://www.voydeviaje.com.ar/resizer/CtXU9IsmKrgb7Waz-b46hQgh4HQ=/980x640/smart/cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/C2J2M5AVSJG6JF3XEJZUKXX6YI.jpg">Foto:
+        oksix / 123RF</a>
+      <a class="footer__fuentes--link"
+        href="https://www.freepik.es/foto-gratis/espacio-diseno-papel-textura-fondo_3220799.htm#query=papel%20arrugado&position=0&from_view=search&track=sph">Imagen
+        de rawpixel.com en Freepik</a>
+    </div>
+    <div class="col-12 col-md-4 footer__derechos container-fluid">
+      <h5 class="text-md-center text-white">Todos los derechos reservados &copy</h5>
+      <h5 class="text-md-center text-white">2022</h5>
+    </div>
+    <div class="col-12 col-md-4 container-fluid">
+      <h5 class="text-white text-md-center">Redes Sociales</h5>
+    </div>
+  </footer>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+
+</body>
+</html>

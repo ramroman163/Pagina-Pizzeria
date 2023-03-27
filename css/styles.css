@@ -1,0 +1,541 @@
+*{
+    transition: .5s all;
+}
+
+body{
+    background: black;
+}
+
+::-webkit-scrollbar{
+    background: rgba(87, 87, 87, 0.5);
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(58, 43, 37);
+    width: 9px;
+    border-radius: 5px;
+}
+
+header{
+    min-height: 10vh;
+    background-color: rgb(24, 22, 23, 0.5);
+    /* background-color: rgba(180, 25, 51, 0.7); */
+    /*background: url("../img/fondo-madera.jpg");*/
+    border-bottom: 3px solid rgb(85, 25, 25);
+}
+
+nav{
+    height: auto;
+    min-height: 10vh;
+    /* background-color: rgb(24, 22, 23, 0.5); */
+    background-color: rgba(180, 25, 51, 1);
+}
+
+nav button{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.nav-link{
+    letter-spacing: 1.5px;
+    font-size: 1.5rem !important;
+}
+
+.nav-link:hover{
+    background: rgba(105, 33, 33, 0.5);
+    border-radius: 8px;
+}
+
+.navbar-brand{
+    padding: 0 !important;
+    font-size: calc(1.20rem + 1vw) !important;
+}
+
+.navbar__boton--icono{
+    font-size: 35px;
+}
+
+.nav-item a{
+    font-size: calc(1rem + 0.7vw) !important;
+}
+
+.contenido__section{
+    position: relative;
+    z-index: 500;
+    width: 100%;
+}
+
+.seccion__inicio{
+    background: url("../img/bg_pizza_grande.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.section__inicio--contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.section__inicio--informacion > h2{
+    /* font-size: 50px; */
+    color: white;
+    font-size: calc(2rem + 1.5vw)!important;
+}
+
+.section__inicio--informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.section__inicio--barrah{
+    width: 110%;
+    height: 2px;
+    background: white;
+    margin: 15px 0;
+}
+
+.section__inicio--contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.section__inicio--contacto > h3 > i{
+    font-size: calc(1.2rem + 1.5vw)!important;
+}
+
+.section__inicio--contacto > h3{
+    /* font-size: 27px; */
+    font-size: calc(1.2rem + 1.5vw)!important;
+    display: flex;
+    align-items: center;
+}
+
+.seccion__promos{
+    background: url("../img/concrete-vandalized-wall.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.section__promos--contenido{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__promos--contenido > h2{
+    font-size: calc(1.5rem + 1.2vw)!important;
+    color: white !important;
+}
+
+.card > img{
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.card-title{
+    font-size: calc(1rem + 1vw) !important;
+}
+
+.card-text{
+    font-size: calc(1rem + 0.5vw) !important;
+}
+
+main > section{
+    min-height: 100vh;
+    padding-top: 10px;
+    position: relative;
+}
+
+.section__ubicacion{
+    background: url("../img/pizza-verduras.jpg");
+    background-repeat: no-repeat;
+    background-position: 30%;
+    background-size: cover;
+}
+
+.section__ubicacion--contenido{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.section__ubicacion--izquierda{
+    width: 60%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section__ubicacion--derecha{
+    width: 40%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.section__ubicacion--derecha > h2{
+    font-size: calc(0.7rem + 1vw);
+    color: white !important;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.section__ubicacion--derecha > h2 > i{
+    margin-right: 8px;
+}
+
+.section__ubicacion--mapa{
+    width: 80%;
+    height: 70vh;
+    border-radius: 5px;
+}
+
+.section__horario{
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.section__horario > h2{
+    font-size: calc(0.7rem + 1vw);
+    color: white !important;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.section__horario > h2 > i{
+    margin-right: 8px;
+}
+
+.section__ubicacion--item{
+    background: transparent !important;
+    color: white !important;
+    font-size: calc(0.5rem + 1vw);
+    border-bottom: 2px solid white !important;
+}
+
+.fondo_transparente{
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(24, 22, 23, 0.55);
+}
+
+footer{
+    border-top: 3px solid rgb(58, 43, 37);
+    min-height: 20vh;
+    background: rgba(59, 41, 28, 0.5);
+}
+
+footer > div{
+    padding: 20px;
+}
+
+footer h5{
+    font-size: calc(0.8rem + 0.8vw);
+}
+
+footer a{
+    font-size: calc(0.5rem + 0.8vw);
+}
+
+.footer__derechos{
+    border-right: 2px solid rgb(58, 43, 37);
+    border-left: 2px solid rgb(58, 43, 37);
+}
+
+
+.footer__fuentes--link{
+    display: inline-block;
+    width: 100%;
+}
+
+.section__nosotros{
+    background: url("../img/horno-pizza.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.section__nosotros--izquierda{
+    width: 50%;
+    min-height: 90vh;
+}
+
+.section__nosotros--contenido{
+    width: 50%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section__nosotros--descripcion{
+    width: 90%;
+    height: 80vh;
+    background: rgb(255,255,255,0.8);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: calc(0.8rem + 0.5vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__productos{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("../img/papel-arrugado.jpg")
+}
+
+.section__productos h2{
+    color: white;
+    z-index: 500;
+    font-size: calc(1.7rem + 1vw);
+}
+
+.section__productos--titulo{
+    padding-top: calc(70px + 3vw);
+
+}
+
+.section__productos--titulo2{
+    margin: 30px 0px;
+}
+
+.section__productos--contenido{
+    width: 100%;
+    height: fit-content;
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.section__productos--contenido img{
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid white;
+    object-fit: cover;
+}
+
+.productos--columna{
+    flex: 24%;
+}
+
+.producto{
+    position: relative;
+    z-index: 200;
+}
+
+.producto img{
+    position: relative;
+    z-index: 1000;
+}
+
+.producto--informacion{
+    display: none;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background: rgb(24, 22, 23, 0.55);
+    border-radius: 5px;
+    
+}
+
+.cortina{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: calc(100% - 15px);
+    z-index: 3000;
+}
+
+.cortina:hover .producto--informacion{
+    display: block;
+    z-index: 4000;
+}
+
+.producto--texto{
+    margin-top: calc(50% / 2 + 15px);
+    margin-bottom: calc(50% / 2 + 15px);
+}
+
+.producto--titulo{
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.producto--descripcion{
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.section__productos--producto{
+    min-height: calc(300px + 2vw);
+    border: 1px solid whitesmoke;
+    padding: 5px;
+}
+
+@media screen and (min-width: 1201px) {
+    .section__productos--titulo{
+        margin-bottom: calc(15px + 1vw);
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .productos--columna{
+        flex: 45%;
+    }
+
+    .section__productos--contenido{
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .nav-link{
+        padding: 6px;
+    }
+
+    .offcanvas{
+        background-color: red;
+    }
+    
+    .offcanvas-header{
+        background-color: rgb(24, 22, 23, 0.5);
+    }
+
+    .contenedor__navbar{
+        background-color: rgb(24, 22, 23, 0.5);
+    }
+
+    .offcanvas-title{
+        font-size: 32px !important;
+    }
+
+    .nav-item{
+        font-size: 30px !important;
+    }
+
+    .section__nosotros{
+        justify-content: center;
+    }
+
+    .section__nosotros--izquierda{
+        display: none;
+    }
+
+    .section__nosotros--contenido{
+        width: 100%;
+    }
+
+    .section__nosotros--descripcion{
+        width: 80%;
+        height: fit-content;
+    }
+
+    .section__productos--contenido{
+        gap: 15px;
+    }
+
+    .productos--columna{
+        flex: 45%;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    .section__ubicacion--contenido{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 10vh;
+        margin-bottom: 10vh;
+    }
+    
+    .section__horario{
+        margin-top: 5vh;
+    }
+
+    .section__ubicacion--izquierda{
+        width: 90%;
+        min-height: 0;
+        margin-top: 10vh;
+    }
+
+    .section__ubicacion--derecha{
+        width: 90%;
+        justify-content: flex-start;
+        min-height: 0;
+    }
+
+    .section__ubicacion--mapa{
+        width: 105%;
+        align-items: flex-start;
+        height: 500px;
+    }
+
+    .section__ubicacion--derecha > h2{
+        font-size: 1.5rem !important;
+    }
+
+    .section__ubicacion--item{
+        font-size: 1.20rem !important;
+    }
+
+    .section__horario > h2{
+        font-size: 1.5rem !important;
+    }
+
+    .footer__derechos{
+        border-right: none;
+        border-left: none;
+        border-top: 2px solid rgb(58, 43, 37);
+        border-bottom: 2px solid rgb(58, 43, 37);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .productos--columna{
+        flex: 100%;
+    }
+    
+    .section__productos--contenido{
+        gap: 0px;
+    }
+}
