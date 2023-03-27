@@ -1,5 +1,5 @@
 # Pagina pizzeria
-Página web informativa sobre una pizzería de ejemplo.
+Página web informativa sobre una pizzería.
 
 # Realizado por
 Román Martinez
